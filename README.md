@@ -1,4 +1,4 @@
-**💛 You can help the author become a full-time open-source maintainer by [sponsoring him on GitHub](https://github.com/sponsors/egoist).**
+A fork of [unplugin-swc](https://github.com/egoist/unplugin-swc) by [egoist](https://github.com/egoist) — which makes it into a module, that can purposefully be used in a Vite project such as SvelteKit.
 
 ---
 
@@ -10,9 +10,7 @@
 
 ## Install
 
-```bash
-npm i unplugin-swc @swc/core -D
-```
+Clone project and build using `tsc build`. npm pack, and include that file to a project `pnpm add ./unplugin-swc.tgz`
 
 ## Usage
 
