@@ -99,10 +99,6 @@ Files to exclude in the transpilation process.
 
 Custom [jsc](https://swc.rs/docs/configuration/compilation) options to merge with the default one.
 
-## Sponsors
-
-[![sponsors](https://sponsors-images.egoist.sh/sponsors.svg)](https://github.com/sponsors/egoist)
-
 ## License
 
 MIT &copy; [EGOIST](https://github.com/sponsors/egoist)
