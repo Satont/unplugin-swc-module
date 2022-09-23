@@ -21,10 +21,11 @@ import swc from 'unplugin-swc'
 
 export default {
   plugins: [
-    // Vite plugin
-    swc.vite()
-    // Rollup plugin
-    swc.rollup()
+    swc.vite({
+			jsc: {
+				target: 'es2022' // Does not accept `esnext`
+			}
+		})
   ]
 }
 ```
