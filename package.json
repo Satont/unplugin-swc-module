@@ -1,6 +1,6 @@
 {
-  "name": "unplugin-swc",
-  "version": "0.0.0",
+  "name": "@satont/unplugin-swc",
+  "version": "0.0.1",
   "description": "SWC plugin for Vite and Rollup",
   "publishConfig": {
     "access": "public"
@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --shims",
     "test": "npm run build && uvu -r esbuild-register --ignore fixtures",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "rm -rf ./dist && pnpm tsc"
   },
   "license": "MIT",
   "dependencies": {
